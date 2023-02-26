@@ -6,14 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/universal7420-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal7420-common/proprietary/lib/libbauthserver.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbauthserver.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbauthtzcommon.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/universal7420-common/proprietary/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsynaFpSensorTestNwd.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libbauthserver.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbauthserver.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbauthtzcommon.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/universal7420-common/proprietary/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal7420-common/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/universal7420-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/universal7420-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
@@ -192,10 +192,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/nfc_nci.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.default.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/nfc_nci.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.default.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so
